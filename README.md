@@ -33,7 +33,7 @@ LeetCode Experiment with AI Extension
 
 Before setting up the application, you'll need to generate a logs.json file for your video:
 
-1. Open this Colab in your browser: [AI Extension Colab](https://colab.research.google.com/drive/1qN7YgMG7Z6Z3dE8CITzBDamhl70sj9Q3?usp=sharing)
+1. Open this Colab in your browser: [Script_To_Generate_TemplateJSON](https://colab.research.google.com/drive/1qN7YgMG7Z6Z3dE8CITzBDamhl70sj9Q3?usp=sharing)
 2. Create a Copy of this Colab
 3. Upload your video
 4. In `Runtime` section click on `Run All` option
