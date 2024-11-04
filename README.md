@@ -35,7 +35,7 @@ Before setting up the application, you'll need to generate a logs.json file for 
 
 1. Open this Colab in your browser: [Script_To_Generate_TemplateJSON](https://colab.research.google.com/drive/1qN7YgMG7Z6Z3dE8CITzBDamhl70sj9Q3?usp=sharing)
 2. Create a Copy of this Colab
-3. Upload your video
+3. Upload your video and ensure you change the name of the video file in the script as per your filename.
 4. In `Runtime` section click on `Run All` option
 5. Your logs.json will be created
 6. Download it to your local machine
