@@ -37,7 +37,7 @@ Before setting up the application, you'll need to generate a logs.json file for 
 2. Create a Copy of this Colab
 3. Upload your video and ensure you change the name of the video file in the script as per your filename.
 4. In `Runtime` section click on `Run All` option
-5. Your logs.json will be created
+5. Your `logs.json` will be created (Click on Refresh Icon in Files sub-section on left side if file is not visible)
 6. Download it to your local machine
 
 ### Setting Up Files
@@ -50,7 +50,7 @@ Before setting up the application, you'll need to generate a logs.json file for 
 
 ### Running the Application
 
-1. Open a terminal in the `app_study/static` directory
+1. Open a terminal in the `app_study/` directory
 2. Run the server using the following command:
    ```bash
    python server.py -p static/<your_logs_fileName>.json -v static/<your_video_fileName>.mp4
