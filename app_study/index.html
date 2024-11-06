@@ -45,10 +45,10 @@
 
 
               </div>
-              <p id ="suggestion_label" > Current Suggestion </p>
-              <p id="state" style="border: solid black 1px">Waiting</p>
-              <div class="popup" id="popup"> Show/Hide Shortcuts/States
-                <span class="popuptext" id="myPopup">
+              <!-- <p id ="suggestion_label" > Current Suggestion </p> -->
+              <p id="state" style="border: solid black 1px"></p>
+              <!-- <div class="popup" id="popup"> Show/Hide Shortcuts/States -->
+                <!-- <span class="popuptext" id="myPopup">
                   Shortcuts: <br />
                    left/right arrows: navigate events <br>
                    r: replay current state, make sure to stop replay before navigating <br>
@@ -68,8 +68,8 @@
                   Writing Documentation (b): adding comments for purpose of documentation,<br>
                   Debugging/Testing Code (h): running or debugging code to check functionality, may include writing tests or debugging statements<br>
                   Looking up Documentation (n): going online to look up code or documentation
-                </span>
-              </div>
+                </span> -->
+              <!-- </div> -->
 
             </div>
 
@@ -121,7 +121,7 @@
           <div style+="display: flex;
           justify-content: center;">
           <div style="margin-left: 10vw; margin-top: 0.5em;" > 
-            <label id="label_state" style=" color: rgb(184, 4, 4); font-size: 25px;"> What were you doing in this pause?</label>  &nbsp; &nbsp; &nbsp;
+            <label id="label_state" style=" color: rgb(184, 4, 4); font-size: 25px;"> What were you doing in each in time interval?</label>  &nbsp; &nbsp; &nbsp;
             <input type="textarea" style="border: solid black 1px;" id="custom_state" placeholder="Type Custom State">
             <button class="button" id="save_state">Submit Custom State</button> &nbsp;
             <button class="btn-hover color-10"
@@ -148,7 +148,7 @@
              <button class="btn-hover color-8"
               id="state13">Do nothing  (X)</button> &nbsp;
             <button class="btn-hover color-8"
-              id="state6">Writing New Functionality  (Z)</button> &nbsp;
+              id="state6">Writing New Code (Z)</button> &nbsp;
             <button class="btn-hover color-8"
               id="state7">Editing Last Suggestion (X)</button> &nbsp;
             <button class="btn-hover color-8"

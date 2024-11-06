@@ -284,8 +284,8 @@ function update_log_index() {
     var current_state = logs_data.logs[index_log].HiddenState;
     var label_state = document.getElementById("label_state");
     if (current_state == "UserBeforeAction") {
-        label_state.innerText = "What were you doing while the suggestion was being shown?";
-        document.getElementById('suggestion_label').innerText = "Current Suggestion";
+        label_state.innerText = "What were you doing in each in time interval?";
+        // document.getElementById('suggestion_label').innerText = "Current Suggestion";
 
         // change opacity of state button 6 7 8 9 12
         state6_button.style.opacity = 0.2;
@@ -297,8 +297,8 @@ function update_log_index() {
 
     }
     else{
-        label_state.innerText = "What were you doing before the next suggestion was  shown?     ";
-        document.getElementById('suggestion_label').innerText = "Next Suggestion";
+        label_state.innerText = "What were you doing in each in time interval?";
+        // document.getElementById('suggestion_label').innerText = "Next Suggestion";
         state6_button.style.opacity = 1;
         state7_button.style.opacity = 1;
         state8_button.style.opacity = 1;
@@ -578,9 +578,9 @@ document.onkeydown = function (e) {
 
 };
 
-var popup = document.getElementById("popup");
-popup.onclick = function () {
-    var myPopup = document.getElementById("myPopup");
-    myPopup.classList.toggle("show");
-}
+// var popup = document.getElementById("popup");
+// popup.onclick = function () {
+//     var myPopup = document.getElementById("myPopup");
+//     myPopup.classList.toggle("show");
+// }
 
