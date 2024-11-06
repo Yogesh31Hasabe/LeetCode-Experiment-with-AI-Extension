@@ -26,6 +26,7 @@ var state9_button = document.getElementById("state9");
 var state10_button = document.getElementById("state10");
 var state11_button = document.getElementById("state11");
 var state12_button = document.getElementById("state12");
+var state13_button = document.getElementById("state13");
 var stateIDK_button = document.getElementById("stateIDK");
 var button_prev = document.getElementById("prev_index");
 var button_next = document.getElementById("next_index");
@@ -292,6 +293,7 @@ function update_log_index() {
         state8_button.style.opacity = 0.2;
         state9_button.style.opacity = 0.2;
         state12_button.style.opacity = 0.2;
+        state13_button.style.opacity = 0.2;
 
     }
     else{
@@ -302,6 +304,7 @@ function update_log_index() {
         state8_button.style.opacity = 1;
         state9_button.style.opacity = 1;
         state12_button.style.opacity = 1;
+        state13_button.style.opacity = 1;
     }
 
     var table = document.getElementById("table_events");
@@ -479,6 +482,9 @@ state11_button.onclick = function () {
 state12_button.onclick = function () {
     log_state_button(state12_button.innerText);
 }
+state13_button.onclick = function () {
+    log_state_button(state13_button.innerText);
+}
 
 stateIDK_button.onclick = function () {
     log_state_button(stateIDK_button.innerText);
@@ -565,7 +571,10 @@ document.onkeydown = function (e) {
     if (e.keyCode == 32) {
         button_autoplay.click();
     }
-    
+
+    if (e.keyCode == 42) {
+        button_autoplay.click();
+    }
 
 };
 
