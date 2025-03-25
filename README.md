@@ -1,7 +1,7 @@
 # LeetCode-Experiment-with-AI-Extension
 LeetCode Experiment with AI Extension
 
-**Project Goal :**
+## Project Goal
 
 This project is dedicated to a systematic exploration of how developers interact with AI tools when tackling LeetCode coding challenges. The primary objective is to analyze and understand the behavioral patterns and actions of developers as they leverage AI assistance in real-time problem-solving scenarios. By capturing detailed usage metrics and interaction data, the project aims to:
 
